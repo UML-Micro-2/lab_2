@@ -9,7 +9,7 @@
 Adafruit_MPU6050 mpu;
 
 void setup(void) {
-  Serial.begin(115200);
+  Serial.begin(9600);
 //wait for a serial connection to initialize
   while (!Serial)
     delay(10);
