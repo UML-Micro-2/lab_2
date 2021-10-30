@@ -14,7 +14,7 @@ import serial
 
 # Note the serial port dev file name
 # need to change based on the particular host machine
-serialDevFile = 'COM3'
+serialDevFile = '/dev/ttyACM0'
 ser = serial.Serial(serialDevFile, 9600, timeout = 0)
 
 delay = 0.1
